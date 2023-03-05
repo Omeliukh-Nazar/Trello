@@ -1,0 +1,81 @@
+.sidebar {
+  z-index: 1;
+  overflow: auto;
+  background: #4c4b8d !important;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  transition: all 0.2s;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.collapsed {
+  width: 50px;
+}
+.sidebar-position-hide {
+  width: 50px !important;
+}
+
+.sidebar-position {
+  position: fixed;
+  width: 200px;
+}
+.white-text {
+  color: #fff;
+}
+
+.ant-menu-item-selected {
+  background-color: #8482b1 !important;
+}
+
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  height: 32px !important;
+}
+
+.buttonsBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.itemButton {
+  color: #8482b1;
+  background: #4c4b8d !important;
+  width: 100%;
+  border: 0;
+}
+.itemButton:hover {
+  color: #fff;
+}
+
+.menu {
+  background: #4c4b8d !important;
+}
+
+.collapsedButton {
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: thin solid #c29dfa;
+}
+
+.collapsedButtonHide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.close {
+  width: 50px;
+}
+
+.ant-menu-item ::after{
+  background-color: red;
+}

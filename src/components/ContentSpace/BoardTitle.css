@@ -1,0 +1,37 @@
+.boardtitle-container .input-marginating {
+  font-size: 1.5rem;
+  border: none;
+  width: 99%;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.boardtitle-div{
+  position: relative;
+}
+
+.boardtitle-container .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input{
+  background-color: rgba(0, 0, 0, 0);
+}
+.boardtitle-container .input-marginating:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.boardtitle-container .ant-form {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.boardtitle-container .ant-form-item-control-input-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boardtitle-container .ant-form-inline .ant-form-item {
+  margin-right: 0px;
+}

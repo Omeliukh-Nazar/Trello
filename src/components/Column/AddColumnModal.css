@@ -1,0 +1,16 @@
+.addColumn {
+  width: 350px;
+  min-height: fit-content;
+  border: 1px solid #ebecf0;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 7px 7px 7px;
+  display: flex;
+  background-color: #ebecf0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.addColumnPlus {
+  color: #666666;
+}

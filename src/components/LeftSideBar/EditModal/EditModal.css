@@ -1,0 +1,16 @@
+.modal-container .ant-btn-primary {
+  background: #8482b1;
+  border-color: #8482b1;
+  border-radius: 5px;
+}
+
+.modal-container .ant-btn-primary:hover {
+  background: rgb(168, 23, 187);
+}
+.modal-container .ant-btn-default {
+  border-radius: 5px;
+}
+.modal-container .ant-btn-default:hover {
+  border-color: rgb(168, 23, 187);
+  color: rgb(168, 23, 187);
+}

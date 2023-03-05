@@ -1,0 +1,96 @@
+.column {
+  width: 350px;
+  min-height: fit-content;
+  border: 1px solid #ebecf0;
+  padding: 10px 10px 0 10px;
+  border-radius: 5px;
+  margin: 0 7px 7px 7px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebecf0;
+}
+
+.column-title {
+  color: #273a59;
+  font-size: 1.5rem;
+  font-weight: 700;
+  align-items: left;
+  display: inline-flex;
+  width: 99%;
+  padding: 0 0 10px 10px;
+  word-break: break-word;
+  background-color: "transparent";
+  border: 0 solid;               
+}
+
+.item {
+  width: 100% !important;
+  background-color: #fff !important;
+  border: 2px solid #fff !important;
+  box-shadow: 0 5px 5px lightgray !important;
+  border-radius: 6px !important;
+  margin: 5px 0 !important;
+  cursor: default !important;
+}
+
+.ant-card-head {
+  min-height: 48px;
+  margin-bottom: -1px;
+  padding: 0 10px !important;
+  border-bottom: none !important;
+}
+
+.ant-card-head-title {
+  padding: 10px 0;
+}
+
+.ant-card-body {
+  padding: 2px 10px !important;
+  word-break: break-word;
+}
+
+.board {
+  padding: 0 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  float: left;
+  position: relative;
+}
+
+.content {
+  overflow-x: scroll;
+  z-index: 0;
+  margin-left: 200px;
+}
+
+.content-full {
+  margin-left: 50px;
+  padding-right: 15px;
+}
+
+.deleteColumnButton {
+  color: #666666 !important;
+  background-color: #ebecf0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  display: inline-flex !important;
+  padding-right: 0;
+  align-items: right !important;
+  margin-top: 2px;
+}
+
+.message-box {
+  margin-left: 1vh !important;
+  display: flex !important;
+}
+
+.boardTitle {
+  cursor: default;
+  width: fit-content;
+  margin-left: 17px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}

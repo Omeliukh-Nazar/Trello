@@ -1,0 +1,14 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+  overflow-y: "scroll";
+}
+
+body {
+  position: relative;
+}
+
+.layoutStyles {
+  margin-top: 64px;
+}
