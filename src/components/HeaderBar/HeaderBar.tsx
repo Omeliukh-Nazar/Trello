@@ -10,7 +10,7 @@ const HeaderBar = () => {
     <>
       <Header className="header">
         <Row>
-          <Col flex="auto">EPlastBoard</Col>
+          <Col flex="auto">Trello Board by Nazar Omeliukh</Col>
           <Col flex="50px">
             <Avatar
               className="avatar"
