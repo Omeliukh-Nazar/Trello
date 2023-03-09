@@ -1,2 +1,2 @@
-const BASE_URL = "http://trelloboardwebapi-dev.eba-97hcsuhc.us-east-1.elasticbeanstalk.com/api/";
+const BASE_URL = "https://omeliukh-trello-api.herokuapp.com/api/";
 export default BASE_URL;
